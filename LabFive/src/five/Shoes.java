@@ -65,14 +65,14 @@ public class Shoes {
 			stmt.execute("INSERT INTO Shoes VALUES ( " + "'Toms', " + "'Alessandra', " + "'Flat', " + "7, "
 					+ "49.99 )");		//insert shoe #2
 			
-			stmt.execute("INSERT INTO Shoes VALUES ( " + "'Steve Madden', " + "'Veronica', " + "'Boot', " + "7.5, "
-					+ "105.99 )");		//insert shoe #3
+			stmt.execute("INSERT INTO Shoes VALUES ( " + "'Nike', " + "'LunarEpic', " + "'Sneaker', " + "8.5, "
+					+ "160.00 )");		//insert shoe #3
 			
-			stmt.execute("INSERT INTO Shoes VALUES ( " + "'Steve Madden', " + "'Veronica', " + "'Boot', " + "7.5, "
-					+ "105.99 )");		//insert shoe #4
+			stmt.execute("INSERT INTO Shoes VALUES ( " + "'Matt & Nat', " + "'Knight', " + "'Boot', " + "8, "
+					+ "155.00 )");		//insert shoe #4
 			
-			stmt.execute("INSERT INTO Shoes VALUES ( " + "'Steve Madden', " + "'Veronica', " + "'Boot', " + "7.5, "
-					+ "105.99 )");		//insert shoe #5
+			stmt.execute("INSERT INTO Shoes VALUES ( " + "'Adidas', " + "'Neo', " + "'Boot', " + "7.5, "
+					+ "55.00 )");		//insert shoe #5
 			
 			System.out.println("Your shoes table has been created.");
 		} catch (SQLException ex) {
@@ -80,4 +80,3 @@ public class Shoes {
 		}
 		}
 	}
-
